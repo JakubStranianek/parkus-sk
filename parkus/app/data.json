@@ -1,0 +1,38 @@
+{
+    "navbar": [
+      {
+        "id": 1,
+        "name": "Domov",
+        "href": "/"
+      },
+      {
+        "id": 2,
+        "name": "O nás",
+        "href": "/o-nas"
+      },
+      {
+        "id": 3,
+        "name": "Služby",
+        "href": "/sluzby"
+      },
+      {
+        "id": 4,
+        "name": "Tím",
+        "href": "/nas-tim"
+      },
+      {
+        "id": 5,
+        "name": "Referencie",
+        "href": "/Referencie"
+      },
+      {
+        "id": 6,
+        "name": "Kontakt",
+        "href": "/kontakt"
+      }
+    ],
+    "otherData": {
+      "title": "Some Title",
+      "description": "Some Description"
+    }
+  }
