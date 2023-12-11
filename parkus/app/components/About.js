@@ -49,11 +49,11 @@ export default function About() {
               </Disclosure>
             ))}
           </dl>
-          <Image src={"logoParkus.svg"} width={400} height={100} alt="headerImage" className="w-full"/>
+          <Image src={"/images/aboutImage.jpg"} width={400} height={400} alt="headerImage" className="w-full"/>
         
-        <div>
+        <div className='mt-8'>
           <h1 className="font-bold text-left text-4xl">Náš tím</h1>
-          <p className="text-left">Náš tím tvoria kmeňoví zamestnanci, ale aj externí dodávatelia služieb, ktorí však pracujú spolu s kmeňovými zamestnancami v sídle našej spoločnosti. Tvoríme jednotný profesionálny, navzájom sa doplňujúci tím ľudí, ktorých práca baví. 
+          <p className="text-left mt-4">Náš tím tvoria kmeňoví zamestnanci, ale aj externí dodávatelia služieb, ktorí však pracujú spolu s kmeňovými zamestnancami v sídle našej spoločnosti. Tvoríme jednotný profesionálny, navzájom sa doplňujúci tím ľudí, ktorých práca baví. 
         <br/><br/>
         Pravidelne absolvujeme odborné školenia, právnu podporu nám poskytujú právna kancelária a daňové poradenstvo externý daňový poradca. Všetci členovia tímu majú dlhoročné skúsenosti v obore a zaručujú profesionalitu, vysokúodbornosť a zodpovednosť každej vykonanej práce.</p>
         </div>

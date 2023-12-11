@@ -11,7 +11,7 @@ Tu sa začína vaša cesta.</p>
 
         <Link href="#sluzby" className="m-auto bg-black text-white px-8 py-4 w-fit rounded-full">Čo ponúkame</Link>
 
-        <Image src={"logoParkus.svg"} width={400} height={100} alt="headerImage" className="w-full"/>
+        <Image src={"/images/heroImage.jpg"} width={400} height={400} alt="headerImage" className="w-full"/>
     </div>
   )
 }

@@ -31,8 +31,21 @@
         "href": "/kontakt"
       }
     ],
-    "otherData": {
-      "title": "Some Title",
-      "description": "Some Description"
-    }
+    "services": [
+      {
+        "id": 1,
+        "name": "Účtovníctvo",
+        "image": "uctovnictvo.svg"
+      },
+      {
+        "id": 2,
+        "name": "Mzdové účtovníctvo, personalistika",
+        "image": "mzdy.svg"
+      },
+      {
+        "id": 3,
+        "name": "Založenie a podpora vašej obchodnej spoločnosti"  ,
+        "image": "zalozenieOs.svg"    
+      }
+    ]
   }
