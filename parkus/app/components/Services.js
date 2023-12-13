@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowLongRightIcon } from '@heroicons/react/24/outline'
 import data from "../data.json"
 
 export default function Services() {
@@ -14,7 +15,10 @@ export default function Services() {
                                 <Image src={`/images/${service.image}`} width={300} height={300} alt="uctovnictvo"/>
                                 <h2 className="font-bold text-4xl px-4">{service.name}</h2>
                                 <hr className="border-black w-full"/>
-                                <Link href={"/"}>Pozrieť viac</Link>
+                                <Link href={"/"} className="flex items-center gap-3">
+                                    <p>Pozrieť viac</p>
+                                    <ArrowLongRightIcon className="w-6 h-auto"/>
+                                </Link>
                             </div>
                         </li>
                     )

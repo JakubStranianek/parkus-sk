@@ -47,5 +47,32 @@
         "name": "Založenie a podpora vašej obchodnej spoločnosti"  ,
         "image": "zalozenieOs.svg"    
       }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Marek S.",
+        "review": "S firmou, ktorá sa špecializuje na účtovníctvo, máme úžasné skúsenosti. Ich tím sa postará o všetky účtovné záležitosti s maximálnou starostlivosťou a odbornosťou. Vďaka nim sa môžeme sústrediť na rast nášho podniku, pretože vieme, že naše financie sú v bezpečných rukách."
+      },
+      {
+        "id": 2,
+        "name": "Martin K.",
+        "review": "Vybrali sme si túto firmu pre naše mzdové účtovníctvo a musím povedať, že sme veľmi spokojní. Ich prístup k práci je profesionálny a spoľahlivý. Navyše, ich tím nám poskytol cenné rady ohľadom optimalizácie nákladov, čo sme veľmi ocenili."
+      },
+      {
+        "id": 3,
+        "name": "Peter N"  ,
+        "review": "Naša obchodná spoločnosť mala šťastie, keď sme si vybrali túto účtovnú firmu. Ich služby nie sú len o číslach a dokumentoch, ale aj o individuálnom prístupe k našim potrebám. Rýchla odozva a precízna práca - to sú ich kľúčové vlastnosti."
+      },
+      {
+        "id": 4,
+        "name": "Veronika H."  ,
+        "review": "Som veľmi spokojná so službami tejto účtovnej firmy. Ich profesionálny prístup k práci a starostlivosť o každý detail ma presvedčili, že sme správne vybrali. Odporúčam ich každej žene podnikateľke, ktorá hľadá spoľahlivé partnerstvo."   
+      },
+      {
+        "id": 5,
+        "name": "Eva M."  ,
+        "review": "S touto účtovnou firmou som našla spoľahlivého partnera pre moje podnikateľské potreby. Ich tím sa postará o všetky administratívne povinnosti, čím mi umožňuje sústrediť sa na rozvoj môjho podnikania. Profesionálny prístup a osobný prístup k zákazníkom sú ich najväčšie silné stránky."  
+      }
     ]
   }
