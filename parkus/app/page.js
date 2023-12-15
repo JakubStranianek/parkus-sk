@@ -11,14 +11,18 @@ export default function Home() {
     <main className="w-full bg-gray-50">
       <div className="w-11/12 m-auto lg:w-4/5">
         <Navbar />
+      </div>
         <Header />
+        <div className="w-11/12 m-auto lg:w-4/5">
         <About />
         <Services />
         <Banner />
+        </div>
         <Reviews />
+        <div className="w-11/12 m-auto lg:w-4/5">
         <Contact />
         <Footer />
-      </div>
+        </div>
     </main>
   )
 }

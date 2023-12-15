@@ -1,0 +1,12 @@
+.carousel.carousel-slider {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.carousel.carousel .control-dots .dot {
+    background: black !important;
+}
+
+.control-dots {
+    position: relative !important;
+}
