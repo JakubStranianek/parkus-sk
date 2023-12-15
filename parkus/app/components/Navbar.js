@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="py-10 flex flex-col lg:flex-row items-center justify-between">
        <div className="w-full flex justify-between items-center">
-        <Image src={"logoParkus.svg"} width={180} height={40} alt="Logo Parkus-SK"/>
+       <Link href={"/"}><Image src={"logoParkus.svg"} width={180} height={40} alt="Logo Parkus-SK"/></Link>
 
         {/* MOBILE MENU*/}
         <div className="lg:hidden cursor-pointer">

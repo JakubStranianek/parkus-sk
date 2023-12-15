@@ -8,27 +8,22 @@
       {
         "id": 2,
         "name": "O nás",
-        "href": "/o-nas"
+        "href": "#o-nas"
       },
       {
         "id": 3,
         "name": "Služby",
-        "href": "/sluzby"
+        "href": "#sluzby"
       },
       {
         "id": 4,
-        "name": "Tím",
-        "href": "/nas-tim"
+        "name": "Referencie",
+        "href": "#referencie"
       },
       {
         "id": 5,
-        "name": "Referencie",
-        "href": "/Referencie"
-      },
-      {
-        "id": 6,
         "name": "Kontakt",
-        "href": "/kontakt"
+        "href": "#kontakt"
       }
     ],
     "services": [

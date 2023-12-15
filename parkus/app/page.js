@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Banner from "./components/Banner";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="w-full bg-gray-50">
@@ -16,6 +17,7 @@ export default function Home() {
         <Banner />
         <Reviews />
         <Contact />
+        <Footer />
       </div>
     </main>
   )

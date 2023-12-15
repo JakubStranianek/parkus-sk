@@ -14,7 +14,7 @@ export default function Banner() {
             Zaujala Vás naša ponuka a služby? Sme pripravení pre vás prichystať riešenie presne podľa vašich potrieb. Kontaktujte nás ešte dnes a spoločne preskúmajme, ako môžeme podporiť váš biznis a priniesť mu novú úroveň efektívnosti a profesionality.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link href={"kontakt"}
+              <Link href={"tel:+421911499135"}
                 className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >
                 Zavolať

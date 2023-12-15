@@ -22,7 +22,7 @@ const faqs = [
 
 export default function About() {
   return (
-    <div className="py-8 text-center flex flex-col justify-center gap-8">
+    <div className="py-8 text-center flex flex-col justify-center gap-8" id='o-nas'>
          <h1 className="font-bold text-4xl">Spoznajte nás</h1>
          <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {faqs.map((faq) => (

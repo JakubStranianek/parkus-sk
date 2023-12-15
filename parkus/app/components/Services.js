@@ -6,7 +6,7 @@ import data from "../data.json"
 export default function Services() {
   return (
     <div className="mt-8">
-        <h1 className="font-bold text-4xl">Aké služby ponúkame?</h1>
+        <h1 className="font-bold text-4xl" id="sluzby">Aké služby ponúkame?</h1>
         <ul className="mt-16 grid gap-16">           
                 {data.services.map((service) => {
                     return (      

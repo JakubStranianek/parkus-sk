@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Reviews() {
   return (
-    <section className="px-6 py-24 sm:py-32 lg:px-8">
+    <section className="px-6 py-24 sm:py-32 lg:px-8" id='referencie'>
     <Carousel showThumbs={false} infiniteLoop="true" swipeable="true" showIndicators={false} showStatus={false}
         renderArrowPrev={(clickHandler, hasPrev) => {
             return (
@@ -35,7 +35,7 @@ export default function Reviews() {
           }}
     >
       {data.reviews.map((review, index) => (
-       <figure className="mx-auto max-w-2xl">
+       <figure className="mx-auto max-w-2xl" key={review.id + review.name}>
        <p className="sr-only">5 out of 5 stars</p>
        <div className="flex justify-center lg:justify-start gap-x-1 text-black">
          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
@@ -51,7 +51,7 @@ export default function Reviews() {
        </blockquote>
        <figcaption className="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
          <Image
-           className="h-12 w-12 rounded-full bg-gray-50"
+           className="!h-12 !w-12 rounded-full bg-gray-50"
            src="/anonym.svg"
            alt="anonymous user"
            width={48}
