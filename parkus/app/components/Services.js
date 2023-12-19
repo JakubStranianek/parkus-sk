@@ -16,7 +16,7 @@ export default function Services() {
                         <li className={`py-16 rounded-2xl bg-white shadow-custom transition-transform duration-500 ease-in-out ${selectedCard === service.name ? 'scale-x-[-1]' : ''}`} key={service.image}>                                             
                             {selectedCard === service.name ? 
                                 <div className={`w-4/5 h-full m-auto flex flex-col items-center justify-between gap-4 ${selectedCard === service.name ? 'scale-x-[-1]' : ''}`}>
-                                    <ul className="flex flex-col gap-4 justify-between list-disc">
+                                    <ul className="flex flex-col gap-4 justify-between list-disc animate-opacity">
                                         {service.nameOfService.map((index) => {
                                             return (                                            
                                                 <li>{index.serviceName}</li>                                            
@@ -29,7 +29,7 @@ export default function Services() {
                                     </div> 
                                 </div>
                             :
-                                <div className="w-4/5 h-full m-auto flex flex-col items-center justify-center gap-4">
+                                <div className="w-4/5 h-full m-auto flex flex-col items-center justify-center gap-4 animate-opacity">
                                     <Image src={`/images/${service.image}`} width={300} height={300} alt="uctovnictvo"/>
                                     <h2 className="font-bold text-4xl px-4">{service.name}</h2>
                                     <hr className="border-black w-full"/>

@@ -47,7 +47,7 @@ export default function About() {
                         </span>
                       </Disclosure.Button>
                     </dt>
-                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                    <Disclosure.Panel as="dd" className="mt-2 pr-12 animate-fade-down">
                       <p className="text-base text-left leading-7 text-gray-600">{faq.answer}</p>
                     </Disclosure.Panel>
                   </>

@@ -9,6 +9,11 @@ import Link from "next/link"
 export default function Navbar() {
     const [open, setOpen] = useState(true)
 
+    const handleItemClick = (id) => {
+        const element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+
   return (
     <nav className="py-10 flex flex-col lg:flex-row items-center justify-between">
        <div className="w-full flex justify-between items-center">
@@ -34,7 +39,11 @@ export default function Navbar() {
                     <li key={index.id + ". " + index.name} className={clsx("whitespace-nowrap hover:underline hover:underline-offset-8",
                        {"border rounded-md border-black px-4 py-1 hover:no-underline hover:bg-black hover:text-white hover:transition-colors" : index.name === "Kontakt"}
                     )}>
-                        <Link href={index.href} className="cursor-pointer">{index.name}</Link>
+                        <Link href={index.href} className="cursor-pointer"
+                        onClick={() => handleItemClick(index.idHref)}
+                        >
+                            {index.name}
+                        </Link>
                     </li>
                 )
             })}
@@ -48,7 +57,10 @@ export default function Navbar() {
             {data.navbar.map(index => {
                 return (
                     <li key={index.id + ". " + index.name}>
-                        <Link href={index.href} className="cursor-pointer">{index.name}</Link>
+                        <Link href={index.href} className="cursor-pointer"
+                        onClick={() => {handleItemClick(index.idHref); setOpen(true)}}>
+                            {index.name}
+                        </Link>
                     </li>
                 )
             })}

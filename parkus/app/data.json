@@ -3,27 +3,32 @@
       {
         "id": 1,
         "name": "Domov",
-        "href": "/"
+        "href": "/",
+        "idHref": "/"
       },
       {
         "id": 2,
         "name": "O nás",
-        "href": "#o-nas"
+        "href": "#o-nas",
+        "idHref": "o-nas"
       },
       {
         "id": 3,
         "name": "Služby",
-        "href": "#sluzby"
+        "href": "#sluzby",
+        "idHref": "sluzby"
       },
       {
         "id": 4,
         "name": "Referencie",
-        "href": "#referencie"
+        "href": "#referencie",
+        "idHref": "referencie"
       },
       {
         "id": 5,
         "name": "Kontakt",
-        "href": "#kontakt"
+        "href": "#kontakt",
+        "idHref": "kontakt"
       }
     ],
     "services": [

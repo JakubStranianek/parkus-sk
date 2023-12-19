@@ -9,7 +9,7 @@ import "../carousel.css"
 
 export default function Reviews() {
   return (
-    <section className="px-6 py-24 sm:py-32 lg:px-8" id='referencie'>
+    <section className="py-24 sm:py-32" id='referencie'>
     <Carousel showThumbs={false} infiniteLoop="true" swipeable="true" showIndicators={false} showStatus={false} className='hidden lg:block'
     centerMode
     centerSlidePercentage={33}
