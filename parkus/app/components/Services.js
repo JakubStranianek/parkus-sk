@@ -19,7 +19,7 @@ export default function Services() {
                                     <ul className="flex flex-col gap-4 justify-between list-disc animate-opacity">
                                         {service.nameOfService.map((index) => {
                                             return (                                            
-                                                <li>{index.serviceName}</li>                                            
+                                                <li key={index.serviceName}>{index.serviceName}</li>                                            
                                             )
                                         })}
                                     </ul>
