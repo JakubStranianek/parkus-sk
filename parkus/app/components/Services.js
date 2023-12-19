@@ -13,7 +13,7 @@ export default function Services() {
             <ul className="mt-16 grid gap-16 lg:grid-cols-3">           
                 {data.services.map((service) => {
                     return (      
-                        <li className={`py-16 rounded-2xl bg-white shadow-custom transition-transform duration-500 ease-in-out ${selectedCard === service.name ? 'scale-x-[-1]' : ''}`} key={service.image}>                                             
+                        <li className={`py-16 rounded-2xl bg-white shadow-custom transition-transform duration-500 ease-in-out ${selectedCard === service.name ? 'scale-x-[-1]' : ''}`} key={service.id + service.image}>                                             
                             {selectedCard === service.name ? 
                                 <div className={`w-4/5 h-full m-auto flex flex-col items-center justify-between gap-4 ${selectedCard === service.name ? 'scale-x-[-1]' : ''}`}>
                                     <ul className="flex flex-col gap-4 justify-between list-disc animate-opacity">
