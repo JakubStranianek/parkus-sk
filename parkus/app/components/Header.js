@@ -10,7 +10,7 @@ export default function Header() {
 Tu sa začína vaša cesta.</p>
         <hr className="border-black lg:hidden"/>
 
-        <Link href="#sluzby" className="m-auto bg-black text-white px-8 py-4 w-fit rounded-full hover:bg-opacity-80 lg:m-0">Čo ponúkame</Link>
+        <Link href="#sluzby" className="m-auto bg-black text-white px-8 py-4 w-fit rounded-full hover:bg-opacity-80 hover:transition-opacity lg:m-0">Čo ponúkame</Link>
         </div>
 
         <Image src={"/images/heroImage.jpg"} width={800} height={800} alt="headerImage" className="w-full h-fit lg:w-1/2 lg:rounded-r-xl"/>

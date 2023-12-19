@@ -31,8 +31,8 @@ export default function Navbar() {
         <ul className="hidden lg:flex gap-14 items-center">
             {data.navbar.map(index => {
                 return (
-                    <li key={index.id + ". " + index.name} className={clsx("whitespace-nowrap",
-                       {"border rounded-md border-black px-4 py-1" : index.name === "Kontakt"}
+                    <li key={index.id + ". " + index.name} className={clsx("whitespace-nowrap hover:underline hover:underline-offset-8",
+                       {"border rounded-md border-black px-4 py-1 hover:no-underline hover:bg-black hover:text-white hover:transition-colors" : index.name === "Kontakt"}
                     )}>
                         <Link href={index.href} className="cursor-pointer">{index.name}</Link>
                     </li>

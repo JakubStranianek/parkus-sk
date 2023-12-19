@@ -30,17 +30,68 @@
       {
         "id": 1,
         "name": "Účtovníctvo",
-        "image": "uctovnictvo.svg"
+        "image": "uctovnictvo.svg",
+        "nameOfService": [
+          {
+            "serviceName": "Kompletné vedenie účtovníctva"
+          },
+          {
+            "serviceName": "Vypracovanie daňových priznaní a ročnej účtovnej závierky"
+          },
+          {
+            "serviceName": "Vypracovanie žiadosti o vrátenie DPH zo zahraničia"
+          },
+          {
+            "serviceName": "Rekonštrukcia účtovníctva"
+          },
+          {
+            "serviceName": "Vypracovanie 1. a 2.mimoriadnej účtovnej závierky počas likvidácie spoločnosti"
+          },
+          {
+            "serviceName": "Archivácia dokladov"
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Mzdové účtovníctvo, personalistika",
-        "image": "mzdy.svg"
+        "image": "mzdy.svg",
+        "nameOfService": [
+          {
+            "serviceName": "Registrácia/odhlásenie zamestnancov do/z príslušných inštitúcií"
+          },
+          {
+            "serviceName": "Spracovanie kompletnej mzdovej agendy"
+          },
+          {
+            "serviceName": "Spracovanie ročného zúčtovania preddavkov na daň a zúčtovania do zdravotných poisťovní"
+          },
+          {
+            "serviceName": "Právne poradenstvo z oblasti personalistiky v spolupráci s advokátskou kanceláriou"
+          }
+        ]
       },
       {
         "id": 3,
         "name": "Založenie a podpora vašej obchodnej spoločnosti"  ,
-        "image": "zalozenieOs.svg"    
+        "image": "zalozenieOs.svg",
+        "nameOfService": [
+          {
+            "serviceName": "Založenie obchodnej spoločnosti, v spolupráci s advokátskou kanceláriou"
+          },
+          {
+            "serviceName": "Registrácia obchodnej spoločnosti na Daňovom úrade a vyžiadanie identifikačného čísla pre daň z pridanej hodnoty"
+          },
+          {
+            "serviceName": "Zabezpečenie zmien v Obchodnom a živnostenskom registri v spolupráci s advokátskou kanceláriou"
+          },
+          {
+            "serviceName": "Zabezpečenie plynulého chodu vašej obchodnej spoločnosti"
+          },
+          {
+            "serviceName": "Služby súvisiace s likvidáciou spoločnosti v spolupráci s advokátskou kanceláriou"
+          }
+        ]
       }
     ],
     "reviews": [
